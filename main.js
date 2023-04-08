@@ -17,7 +17,7 @@ function positionSuccess({ coords }) {
 }
 
 function positionError() {
-    alert("There was an error getting your locatin. Please allow us to use your location and refresh the page.")
+    alert("There was an error getting your location. Please allow us to use your location and refresh the page.")
 }
 
 function renderWeather({ current, daily, hourly }) {
